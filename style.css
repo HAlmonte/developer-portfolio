@@ -5,12 +5,23 @@ html {
 body {
 	background-image: url(./images/officialBackground.png);
 	background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Font Styles */
-.font-anton {
+.font-oswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.font-source-code-pro {
+	font-family: 'Source Code Pro', monospace;
+}
+
+
+
+/*.font-anton {
 	font-family: 'Anton', sans-serif;
 }
 .font-playfair {
@@ -25,11 +36,20 @@ body {
 	font-family: 'Secular One', sans-serif;
 }
 
-.font-oswald {
-	font-family: 'Oswald', sans-serif;
+*/
+
+.bg-light-pink {
+	background-color: #F3D8C7;
 }
 
-.bg-tuscan {
+.bg-linen {
+	background-color: #F9EAE1;
+}
+
+.bg-pink {
+	background-color: #FF999C;
+}
+/*.bg-tuscan {
 	background-color: #7D4F50;
 }
 
@@ -37,29 +57,18 @@ body {
 	background-color: #D1BE9C;
 }
 
-.bg-linen {
-	background-color: #F9EAE1;
-}
+
 
 .bg-grullo {
 	background-color: #AA998F;
 }
 
-.bg-light-pink {
-	background-color: #F3D8C7;
-}
 
-.bg-pinkk {
-	background-color: #FF999C;
-}
+
+*/
 
 .tuscan {
 	color: #7D4F50;
-	opacity: 100%;
-}
-
-.light-pink {
-	color: #F3D8C7;
 }
 
 .pink {
@@ -69,15 +78,21 @@ body {
 .bright-pink {
 	color: #FF999C;
 }
-
-/* Navigation Bar */
-.nav-items {
-	font-size: 1.4rem;
-	color: #7D4F50;
-	letter-spacing: 0.15rem;
+/*.light-pink {
+	color: #F3D8C7;
 }
 
-.nav-items:hover {
+
+
+*/
+
+/* Navigation Bar */
+.nav-link {
+	font-size: 20px;
+	color: #7D4F50;
+}
+
+.nav-link:hover {
 	color: #CC8B86;
 }
 
@@ -114,8 +129,7 @@ body {
 }
 
 .image-style {
-	width: 70%;
-
+	width: 73%;
 }
 
 /* About Me Page */
@@ -123,44 +137,52 @@ body {
 	font-size: calc(1.625rem + 2.56vw);
 	font-weight: bold;
 	letter-spacing: 0.15rem;
-	line-height: 1rem;
 	text-shadow: 0px 0px 20px #CC8B86;	
-}
-
-.about-container {
-	height: 100vh;
-	border-radius: 50px;
-	box-shadow: 7px 7px 15px #CC8B86;
 }
 
 .about-box {
 	box-shadow: 0px 0px 20px #CC8B86;
-	border-radius: 50px;
+	border-radius: 30px;
 }
 
-.personalInfo {
-	font-size: calc(1.625rem + 0.36vw);
-	font-weight: bold;
-	line-height: 1rem;
-}
-
-.life-motto {
-	font-size: calc(1.2rem + 0.20vw);
+.subheader {
+	font-size: calc(1.625rem + 0.15vw);
 	font-weight: bold;
 }
 
 .description {
-	margin-right: 8%;
-	margin-left: 8%;
+	font-size: calc(0.8rem + 0.01vw);
 }
 
 .jobPosition {
-	font-size: calc(1.30rem + 0.05vw);
-	font-weight: bold;
-	line-height: 0.90rem;
+	font-size: calc(1rem + 0.05vw);
 }
 
-.company {
-	font-size: calc(1rem + 0.05vw);
-	line-height: 0.01rem;
+/* Projects Page */
+.card-box {
+	border-radius: 25px;
+	box-shadow: 0px 0px 20px #CC8B86;
+}
+
+.card-img {
+	border-radius: 20px;
+}
+
+/* Contact Me Page */
+.contactInfo {
+	font-size: calc(1rem + 0.10vw);
+}
+
+.form-box {
+	box-shadow: 0px 0px 20px #CC8B86;
+	border-radius: 25px;
+}
+
+.send_button {
+	border: none;
+	border-radius: 50px;
+}
+
+.send_button:hover {
+	background-color: #7D4F50;
 }

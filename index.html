@@ -8,7 +8,7 @@
     	<!-- Google Fonts -->
     	<link rel="preconnect" href="https://fonts.googleapis.com">
     	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Playfair+Display:wght@600;700&family=Roboto&family=Anton&family=Secular+One&family=Oswald&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Oswald&display=swap" rel="stylesheet">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -25,65 +25,61 @@
 
 	<body>
 		<!-- Navigation Bar Start -->
-		<nav class="navbar navbar-expand-lg bg-transparent fixed-top scrolled d-flex font-oswald">
-
-
+		<nav class="navbar navbar-expand-lg bg-transparent fixed-top scrolled font-source-code-pro m-0 p-0">
+			<!-- Navbar Logo -->
 			<div class="col-3">
-				<!-- Navbar Logo -->
-			  	<a class="navbar-nav" href="#landing_page">
-			  		<img src="./images/officialLogo.png" class="w-75"/>
+			  	<a class="navbar-brand" href="#landing_page">
+			  		<img src="./images/officialLogo.png" class="w-75" />
 			  	</a>
 		  	</div>
-		  	
 		  	<!-- Navbar Hamburger -->
-		  	<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    	<span class="navbar-toggler-icon"></span>
-		  	</button>
-
-		  	<!-- Navbar Items -->
-		  	<div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-		    	<ul class="navbar-nav mx-auto d-flex justify-content-center">
-		      		<li class="nav-item">
-		        		<a class="nav-link nav-items mx-2" href="#about_me">About Me</a>
-		      		</li>
-		      		<li class="nav-item">
-		        		<a class="nav-link nav-items mx-2" href="#projects">Projects</a>
-		      		</li>
-		      		<li class="nav-item dropdown">
-		        		<a class="nav-link nav-items mx-2" href="#contact_me">Contact Me</a>
-		      		</li>
-		    	</ul>
-		    	<ul class="navbar-nav d-flex flex-row ml-auto">
-		      		<li class="nav-item">
-		        		<a class="nav-link nav-items mx-2" href="https://www.facebook.com/HAlmonte27" target="_blank">
-		        			<i class="fa fa-facebook"></i>
-		        		</a>
-		      		</li>
-		      		<li class="nav-item">
-		        		<a class="nav-link nav-items mx-2" href="https://www.linkedin.com/in/hillary-mae-almonte/" target="_blank">
-		        			<i class="fa fa-linkedin"></i>
-		        		</a>
-		      		</li>
-		      		<li class="nav-item">
-		        		<a class="nav-link nav-items mx-2" href="https://github.com/HAlmonte" target="_blank">
-		        			<i class="fa fa-github"></i>
-		        		</a>
-		      		</li>
-		      		<li class="nav-item dropdown">
-		        		<a class="nav-link nav-items mx-2" href="https://gitlab.com/HAlmonte" target="_blank">
-		        			<i class="fa fa-gitlab"></i>
-		        		</a>
-		      		</li>
-		    	</ul>
-		  	</div>
-		</nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              	<span class="navbar-toggler-icon"></span>
+            </button>
+          	<!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav mx-auto">
+	                <li class="nav-item">
+	                  	<a class="nav-link mx-2" href="#about_me">About Me</a>
+	                </li>
+	                <li class="nav-item">
+	                  	<a class="nav-link mx-2" href="#projects">Projects</a>
+	                </li>
+	                <li class="nav-item">
+	                  	<a class="nav-link mx-2" href="#contact_me">Contact Me</a>
+	                </li>
+	            </ul>
+	            <ul class="navbar-nav mx-3">
+	                <li class="nav-item">
+	                  <a class="nav-link mx-2" href="#">
+	                  	<i class="fa fa-facebook"></i>
+	                  </a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link mx-2" href="#">
+	                  	<i class="fa fa-linkedin"></i>
+	                  </a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link mx-2" href="#">
+	                  	<i class="fa fa-github"></i>
+	                  </a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link mx-2" href="#">
+	                  	<i class="fa fa-gitlab"></i>
+	                  </a>
+	                </li>
+	            </ul>
+            </div>
+        </nav>
 		<!-- Navigation Bar End -->
 
 		<!-- Landing Page Start -->
-		<div class="container-fluid min-vh-100 " id="landing_page">
+		<div class="container-fluid font-oswald" id="landing_page">
 			<div class="row d-md-flex justify-content-center align-items-center px-5 pt-5">
 				<!-- Introduction Start -->
-				<div class="col-lg-6 col-md-12 font-oswald text-white px-5">
+				<div class="col-lg-6 col-md-12 text-white px-5">
 					<p class="intro">Hello World! I am</p>
 					<p class="intro-name tuscan">Hillary Mae.</p>
 					<p class="intro-title text-uppercase">Computer Engineer.</p>
@@ -93,7 +89,7 @@
 				<!-- Introduction End -->
 
 				<!-- Imaged part -->
-				<div class="col-lg-6 col-md-12 d-flex justify-content-center">
+				<div class="col-lg-6 d-lg-flex justify-content-center">
 					<img src="./images/personalImage_4.png" class="image-style my-auto">
 				</div>
 			</div>
@@ -101,64 +97,56 @@
 		<!-- Landing Page End -->
 
 		<!-- About Me Page Start -->
-		<div class="container-fluid min-vh-100 bg-light-pink p-5" id="about_me">
+		<div class="container-fluid p-5 font-oswald" id="about_me">
 
-			<h1 class="header text-white text-center p-5">Get to Know Me!</h1>
+			<h1 class="header text-white text-center pt-3">Get to Know Me!</h1>
 
 			<!-- About Me Sections -->
-			<div class="row font-oswald">
-				<div class="col-lg-8 col-md-12 p-2">
-					<!-- Personal Backgrond -->
-					<div class="col-lg-12 col-md-12 text-center bg-linen about-box p-3">
-						<h4 class="personalInfo tuscan mt-3">PERSONAL INFORMATION</h4>
-						<img src="./images/personalImage_5.jpg" width="130" class="about-image img-fluid mx-auto rounded-circle my-3">
-						<h4 class="personalInfo pink">Hi! My name is Hillary Mae Almonte</h4>
-						<p class="life-motto bright-pink font-playfair">"She BELIEVED she could, so she DID"</p>
-						<p class="description tuscan">I am a graduate of the Polytechnic University of the Philippines - Sta. Mesa with the degree of Bachelor of Science in Computer Engineering. Ever since I was introduced to programming, I have always wanted to become a front-end web developer but I am now expanding my skills to become a full stack web developer. I also have the passion for teaching which is why becoming a programming instructor would be my dream work.</p>
+			<div class="row text-center px-5 justify-content-center font-source-code-pro ">
+
+				<div class="col-lg-7 col-md-12 p-3">
+
+					<!-- Personal Background -->
+					<div class="col-lg-12 col-md-12 bg-linen about-box py-4">
+						<h4 class="subheader tuscan">PERSONAL INFORMATION</h4>
+						<img src="./images/personalImage_5.jpg" width="130" class="about-image img-fluid mx-auto rounded-circle">
+						<!-- <h4 class="personalInfo pink">Hi! I am Engr. Hillary Mae Almonte</h4> -->
+						<p class="description tuscan pt-2 m-0">I am a graduate of the Polytechnic University of the Philippines - Sta. Mesa with the degree of Bachelor of Science in Computer Engineering. Ever since I was introduced to programming, I have always wanted to become a front-end web developer but I am now expanding my skills to become a full stack web developer. I also have the passion for teaching which is why becoming a programming instructor would be my dream work.</p>
 					</div>		
-					<div class="col-lg-12 col-md-12 text-center bg-linen about-box p-3 mt-3">
-						<h4 class="personalInfo tuscan mt-3">WORK EXPERIENCE</h4>
-						<img src="./images/teacher.png" width="50" class="about-image img-fluid mx-auto rounded-circle my-3">
-						<p class="jobPosition pink">Coding (Professional Level) and Math Instructor</p>
-						<p class="company bright-pink font-playfair">Whitehat Education Technology Pt Ltd</p>
-						<p class="company bright-pink font-playfair">October 2020 - January 2022</p>
-						<ul class="list-unstyled tuscan">
-							<li>Experienced in doing trial classes for children from different countries aged 7-14 years old.</li>
+					<div class="col-lg-12 col-md-12 text-center bg-linen about-box py-4 mt-3">
+						<h4 class="subheader tuscan">WORK EXPERIENCE</h4>
+						<img src="./images/teacher.png" width="50" class="about-image img-fluid mx-auto rounded-circle">
+						<p class="jobPosition pink m-0">Coding (Professional Level) and Math Instructor</p>
+						<p class="description bright-pink">Whitehat Education Technology Pt Ltd</p>
+						<ul class="list-unstyled description tuscan m-0">
+							<li>Experienced in doing trial classes for children aged 7-14 years old.</li>
 							<li>Conducted 100+ paid classes with students using different programming languages.</li>
-							<li>Evaluate and Grade coding-related projects done by students in every paid class.</li>
-							<li>Provide feedback on the student's progress every after few classes.</li>
-							<li>Study and practice curriculum lessons and resources for trial and paid classes.</li>
-							<li>Continuously learn different programming languages through webinars and learning management system (LMS).</li>
+							<li>Evaluate coding-related projects done by students and provide feedback on the student's progress every after few classes.</li>
 						</ul>
 					</div>		
 				</div>
-				<div class="col-lg-4 col-md-12">
-					<div class="col-lg-12 col-md-12 bg-linen text-center about-box p-3">
-						<h4 class="personalInfo tuscan mt-3">SKILLS</h4>
+				<div class="col-lg-5 col-md-12 p-3">
+					<div class="col-lg-12 col-md-12 bg-linen text-center about-box py-4">
+						<h4 class="subheader tuscan mt-3">SKILLS</h4>
 
-						<img src="./images/web-development.png" width="50" class="about-image img-fluid mx-auto rounded-circle my-3">
-						<p class="jobPosition pink">Web Development</p>
-						<ul class="list-unstyled tuscan">
-							<li>Knowledgeable in creating basic web design (HTML, CSS, Bootstrap).</li>
+						<img src="./images/web-development.png" width="50" class="about-image img-fluid mx-auto rounded-circle">
+						<p class="jobPosition pink m-0">Full Stack Web Development</p>
+						<ul class="list-unstyled description tuscan">
+							<li>Design a static mobile friendly portfolio using HTML, CSS and Bootstrap hosted in GitLab. </li>
+							<li>Created dynamic website with session storage using PHP and MySQL.</li>
 						</ul>
 
-						<img src="./images/programming.png" width="50" class="about-image img-fluid mx-auto rounded-circle my-3">
-						<p class="jobPosition pink">Computer Programming</p>
-						<ul class="list-unstyled tuscan">
-							<li>Knows the basic programming languages (C++, C#, Python, Scratch, and JavaScript).</li>
+						<img src="./images/programming.png" width="50" class="about-image img-fluid mx-auto rounded-circle">
+						<p class="jobPosition pink m-0">Computer Programming</p>
+						<ul class="list-unstyled description tuscan">
+							<li>Implemented programs using the basic programming languages such as C++, C#, Python, Scratch, and JavaScript.</li>
+							<li>Programmed basic robotic functions using Arduino and Microbit (Junior Robotics). </li>
 							<li>Skilled and familiar with basic game development using Unity.</li>
 						</ul>
-						<img src="./images/general-knowledge.png" width="50" class="about-image img-fluid mx-auto rounded-circle my-3">
-						<p class="jobPosition pink">General Knowledge</p>
-						<ul class="list-unstyled tuscan">
+						<img src="./images/general-knowledge.png" width="50" class="about-image img-fluid mx-auto rounded-circle">
+						<p class="jobPosition pink m-0">General Knowledge</p>
+						<ul class="list-unstyled description tuscan">
 							<li>Familiar in Microsoft Office Apps (Word, PowerPoint, Publisher, and Excel) and Google Workspace.</li>
-							<li>Knowledgeable with Computer Aided Drafting using AutoCAD</li>
-							<li>Experienced in basic video editing using Filmora.</li>
-						</ul>
-						<img src="./images/Social-Skills.png" width="50" class="about-image img-fluid mx-auto rounded-circle my-3">
-						<p class="jobPosition pink">Social Skills</p>
-						<ul class="list-unstyled tuscan">
-							<li>Excellent Communication skill in English and Filipino</li>
 						</ul>
 					</div>		
 				</div>
@@ -167,110 +155,105 @@
 		<!-- About Me Page End -->
 
 		<!-- Projects Page Start -->
-		<div class="container-fluid min-vh-100 p-5" id="projects">
+		<div class="container-fluid p-5 font-oswald" id="projects">
 
-			<h1 class="header text-white text-center p-5">Work Gallery</h1>
+			<h1 class="header text-white text-center pt-3">Work Gallery</h1>
 
-			<div class="card-deck">
+			<div class="card-deck px-5 pt-3 font-source-code-pro">
 
-  				<div class="card">
-    				<img src="./images/trex-runner.png" class="card-img-top" alt="...">
-    				<div class="card-body">
-	      				<h5 class="card-title">Trex Runner Game</h5>
-				      	<p class="card-text">This is the classic game that users like to play whenever internet is not available.</p>
-				      	<p class="card-text"><small class="text-muted">Created using JavaScript</small></p>
+  				<div class="card bg-linen card-box px-4 pt-4">
+  					<a href="https://halmonte.github.io/Trex-Runner-Game/" target="_blank">
+  						<img src="./images/trex-runner.png" class="card-img" alt="...">
+  					</a>
+    				<div class="card-body text-center">
+	      				<h5 class="card-title pink">Trex Runner Game</h5>
+				      	<p class="card-text description tuscan">This is the classic game that users like to play whenever internet is not available.</p>
+				      	<p class="card-text description tuscan">Created using JavaScript</p>
 			    	</div>
-			    	<div class="card-footer">
-							      		<a href="https://halmonte.github.io/Trex-Runner-Game/" target="_blank">LINK TO PROJECT</a>
-							    	</div>
  	 			</div>
 
-			  	<div class="card">
-				    <img src="./images/worlds-hardest-game.png" class="card-img-top" alt="...">
-				    <div class="card-body">
-				      <h5 class="card-title">World's Hardest Game</h5>
-				      <p class="card-text"></p>
-				      <p class="card-text">I have created this game to mmake sure that no one ever wins. Goodluck playing the world's hardest game.<small class="text-muted"></small></p>
+			  	<div class="card bg-linen card-box px-4 pt-4">
+			  		<a href="https://studio.code.org/projects/gamelab/0WsF2Qf74er11Jutrm9B-H67xoKeEqgpp4iZFbRos1I" target="_blank">
+			  			<img src="./images/worlds-hardest-game.png" class="card-img" alt="...">
+			  		</a>
+				    <div class="card-body text-center">
+				      	<h5 class="card-title pink">World's Hardest Game</h5>
+				      	<p class="card-text description tuscan">I created this game to make sure that no one ever wins. Goodluck playing the world's hardest game.</p>
+				      	<p class="card-text description tuscan">Created using JavaScript in Code.org</p>
 				    </div>
-				    <div class="card-footer">
-							      		<a href="https://studio.code.org/projects/gamelab/0WsF2Qf74er11Jutrm9B-H67xoKeEqgpp4iZFbRos1I" target="_blank">Created using JavaScript in Code.org</a>
-							    	</div>
-			  	</div>
-			  <div class="card">
-			    <img src="./images/catch-game.png" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title">Catch Game</h5>
-			      <p class="card-text">This is a classic yet cute game you can play while passing the time just make sure you dont miss any fruit!</p>
-			      <p class="card-text"><small class="text-muted">Created using Scratch MIT</small></p>
-			    </div>
-			    <div class="card-footer">
-							      		<a href="https://scratch.mit.edu/projects/717632697/" target="_blank">LINK TO PROJECT</a>
-							    	</div>
-			  </div>
+				</div>
+			  	
+			  	<div class="card bg-linen card-box px-4 pt-4">
+			  		<a href="https://scratch.mit.edu/projects/717632697/" target="_blank">
+			  			<img src="./images/catch-game.png" class="card-img" alt="...">
+			  		</a>
+			    	<div class="card-body text-center">
+			      		<h5 class="card-title pink">Catch Game</h5>
+			      		<p class="card-text description tuscan">This is a classic yet cute game you can play while passing the time just make sure you dont miss any fruit!</p>
+			      		<p class="card-text description tuscan">Created using Scratch MIT</p>
+			    	</div>
+				</div>
 			</div>
 		</div>
 		<!-- Projects Page End -->
 
 		<!-- Contact Me Page Start -->
-		<div class="container-fluid min-vh-100 bg-khaki p-5" id="contact_me">
+		<div class="container-fluid p-5 font-oswald" id="contact_me">
 
-			<h1 class="intro text-white text-center p-5">Let's Get in Touch</h1>
+			<h1 class="header text-white text-center pt-3">Let's Connect!</h1>
 
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="col-lg-12">
-						Contact Number
+			<div class="row py-3 font-source-code-pro">
+
+				<div class="col-lg-4 offset-2 text-center px-3">
+					<img src="./images/contactme.png" class="w-50">
+					<div class="col-lg-12 mx-auto">
+						<p class="contactInfo tuscan mt-3"><i class="fa fa-phone tuscan"></i> (+63)905-578-1067</p>
 					</div>
-					<div class="col-lg-12">
-						Email Addresss
-						
+					<div class="col-lg-12 mx-auto">
+						<p class="contactInfo tuscan mt-3"><i class="fa fa-envelope tuscan"></i> hillarymae.almonte@gmail.com</p>
 					</div>
-					<div class="col-lg-12">
-						Map
-						
+
+					<!--Google Map-->
+					<div class="z-depth-1-half col-lg-12 mx-auto my-2 px-auto" id="map-container-google-3">
+						<p class="contactInfo tuscan mt-3"><i class="fa fa-map-pin"></i> Caloocan City, Philippines</p>
+  						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.3392781950274!2d121.03653596353443!3d14.749905551511825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0386a31d5d1%3A0xc75f36c9f7afed54!2sCamarin%20Rd%2C%20173%2C%20Caloocan%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1671074075348!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
-				<div class="col-lg-6">
-				<form>
-			  <div class="form-group">
-			    <label for="exampleFormControlInput1">Email address</label>
-			    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlSelect1">Example select</label>
-			    <select class="form-control" id="exampleFormControlSelect1">
-			      <option>1</option>
-			      <option>2</option>
-			      <option>3</option>
-			      <option>4</option>
-			      <option>5</option>
-			    </select>
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlSelect2">Example multiple select</label>
-			    <select multiple class="form-control" id="exampleFormControlSelect2">
-			      <option>1</option>
-			      <option>2</option>
-			      <option>3</option>
-			      <option>4</option>
-			      <option>5</option>
-			    </select>
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlTextarea1">Example textarea</label>
-			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			  </div>
-			</form>
+
+				<div class="col-lg-4 px-3">
+
+					<!-- Contact Me Form -->
+					<form class="form-box bg-linen mx-auto p-3">
+
+				  		<div class="form-group px-3 text-center tuscan">
+				    		<label for="username">Name</label>
+				    		<input type="email" class="form-control" name="username" placeholder="Juan Dela Cruz (optional)">
+				  		</div>
+
+				  		<div class="form-group px-3 text-center tuscan">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="juandelacruz@gmail.com">
+  						</div>
+
+				  		<div class="form-group px-3 text-center tuscan">
+				    		<label for="exampleFormControlTextarea1">Message</label>
+				    		<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+				  		</div>
+
+				  		<div class="mx-auto text-center">
+				  			<button type="submit" class="send_button bg-pink text-white px-3 py-2">Send Message</button>
+				  		</div>
+					</form>
 				</div>
 			</div>
 		</div>
 		<!-- Contact Me Page End -->
 
-		<footer>
-			<div class="">
-				<p>All Rights Reserved</p>
-			</div>
+		<!-- Page Footer Start -->
+		<footer class="bg-pink p-2 text-white font-oswald d-flex justify-content-center">
+			<span class="text-center">&copy; 2022 Hillary Mae Almonte. All Rights Reserved.</span>
 		</footer>
+		<!-- Page Footer End -->
 
 		<!-- JQuery and Bootstrap Bundle -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
