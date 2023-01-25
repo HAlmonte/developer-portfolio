@@ -19,25 +19,6 @@ body {
 	font-family: 'Source Code Pro', monospace;
 }
 
-
-
-/*.font-anton {
-	font-family: 'Anton', sans-serif;
-}
-.font-playfair {
-	font-family: 'Playfair Display', serif;
-}
-
-.font-Roboto {
-	font-family: 'Roboto', sans-serif;
-}
-
-.font-secular {
-	font-family: 'Secular One', sans-serif;
-}
-
-*/
-
 .bg-light-pink {
 	background-color: #F3D8C7;
 }
@@ -49,23 +30,6 @@ body {
 .bg-pink {
 	background-color: #FF999C;
 }
-/*.bg-tuscan {
-	background-color: #7D4F50;
-}
-
-.bg-khaki {
-	background-color: #D1BE9C;
-}
-
-
-
-.bg-grullo {
-	background-color: #AA998F;
-}
-
-
-
-*/
 
 .tuscan {
 	color: #7D4F50;
@@ -78,13 +42,6 @@ body {
 .bright-pink {
 	color: #FF999C;
 }
-/*.light-pink {
-	color: #F3D8C7;
-}
-
-
-
-*/
 
 /* Navigation Bar */
 .nav-link {
@@ -101,8 +58,8 @@ body {
 	font-size: calc(1.625rem + 2.56vw);
 	font-weight: bold;
 	letter-spacing: 0.15rem;
-	line-height: 1rem;
 	text-shadow: 5px 5px 15px #CC8B86;
+	margin: 0;
 }
 
 .intro-name {
