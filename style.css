@@ -53,6 +53,15 @@ body {
 	color: #CC8B86;
 }
 
+.connect-link {
+	font-size: 40px;
+	color: #7D4F50;
+}
+
+.connect-link:hover {
+	color: #CC8B86;
+}
+
 /* Landing Page */
 .intro {
 	font-size: calc(1.625rem + 2.56vw);
